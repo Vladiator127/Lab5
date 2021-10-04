@@ -1,0 +1,64 @@
+
+body{
+  background-color: lightblue;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+header{
+  font-family:Calibri, Arial,sans-serif;
+}
+
+
+caption{
+  float:left;
+  text-align:center;
+  margin-right:20%;
+}
+
+nav{
+  font-family:Calibri, Arial,sans-serif;
+  font-size: 1.25em;
+  font-weight:bold;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:30px;
+  padding:10px;
+  border-top:5px solid #FFFFFF;
+  border-bottom:5px solid #FFFFFF;
+}
+
+
+#main{
+  display: block;
+  font-family:Calibri, Arial,sans-serif;
+  font-size:1em;
+  margin-top:20px;
+  margin-top:10px
+  padding:10px;
+  border-radius:10px;
+  background-color:#FFFFFF
+  box-shadow:12px 12px 12px #404040; /*Enables body of text to look like a
+                                    floating box with a shadow behind it*/
+}
+
+footer{
+  font-size:.70em;
+  text-align:center;
+  margin-top:150px;
+}
+
+Classics{
+}
+
+.column{
+  float:left;
+  padding-left:10%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
